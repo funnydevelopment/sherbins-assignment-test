@@ -24,3 +24,38 @@ Use any Python plotting library of your choice, such as matplotlib or seaborn.
 ### Bonus tasks (optional):
 - Extend the optimization problem: Now towers have a cost, and you have a limited budget. Modify your algorithm to maximize coverage while staying within the budget.
 - Consider different types of towers with different ranges and costs. How would this change your optimization approach?
+
+## Установка и настройка
+This project serves as an example for running the `app.py` application. To successfully run the application, you will need a Python virtual environment and the installation of required packages from `requirements.txt`.
+
+- Clone the repository: 
+```
+git@github.com:funnydevelopment/sherbins-assignment-test.git
+```
+and navigate to the project folder.
+
+- Create a Python virtual environment: 
+```
+python -m venv venv
+```
+
+- Activate the virtual environment:
+
+On Windows:
+```
+venv\Scripts\activate
+```
+
+On macOS and Linux:
+```
+source venv/bin/activate
+```
+
+- Install the necessary dependencies from requirements.txt: 
+```
+pip install -r requirements.txt
+```
+- Run the project:
+```
+python app.py
+```
